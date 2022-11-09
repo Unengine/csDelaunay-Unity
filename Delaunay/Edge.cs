@@ -290,6 +290,7 @@ namespace csDelaunay {
 				clippedVertices[LR.RIGHT] = new Vector2(x1, y1);
 			} else {
 				clippedVertices[LR.RIGHT] = new Vector2(x0, y0);
+				clippedVertices[LR.LEFT] = new Vector2(x1, y1);
 			}
 		}
 		#endregion
